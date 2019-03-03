@@ -1,0 +1,19 @@
+@import './reset.scss';
+
+body {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+}
+
+canvas {
+  border: 1px solid #000;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}

@@ -18,4 +18,4 @@ const ctx = setupCanvas(canvas);
 const D = new Drawer(ctx);
 
 document.addEventListener('touchmove', e => D.updateTouch(e.touches[0].clientX, e.touches[0].pageY, e.touches[0].force));
-document.addEventListener('touchend', e => D.updateTouch(null, null, null));
+document.addEventListener('touchend', e => D.resetTouch());

@@ -36,18 +36,17 @@ export default class Drawer {
         this.pen.oy = null;
         this.pen.cx = null;
         this.pen.cy = null;
-        this.pen.force = null;
     }
 
     draw() {
         const ox = this.pen.drawing ? this.pen.ox : this.pen.cx;
         const oy = this.pen.drawing ? this.pen.oy : this.pen.cy;
 
-        this.ctx.fillStyle = 'black';
+        this.ctx.strokeStyle = 'black';
         this.ctx.beginPath();
         this.ctx.moveTo(ox, oy);
         this.ctx.lineTo(this.pen.cx, this.pen.cy);
-        this.ctx.lineWidth = this.pen.force*5;
+        this.ctx.lineWidth = this.pen.force * 5;
         this.ctx.stroke();
         this.pen.drawing = true;
     }

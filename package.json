@@ -1,7 +1,7 @@
 {
   "name": "mDraw",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.1.0",
+  "main": "index.html",
   "author": "Michael Hamilton <michaelhamilton626@gmail.com>",
   "license": "MIT",
   "devDependencies": {
@@ -11,5 +11,7 @@
   },
   "dependencies": {
     "pressure": "^2.1.2"
-  }
+  },
+  "description": "mDraw is a Javascript experiment to implement high quality Apple Pencil support.",
+  "repository": "https://github.com/michael-hamilton/mDraw.git"
 }

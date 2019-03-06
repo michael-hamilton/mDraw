@@ -9,6 +9,15 @@ body {
   width: 100%;
 }
 
+#data-readout {
+  background-color: #aaa;
+  height: 18px;
+  padding: 20px;
+  position: absolute;
+  width: 100%;
+  z-index:1;
+}
+
 canvas {
   border: 1px solid #000;
   height: 100%;
